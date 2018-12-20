@@ -1,0 +1,73 @@
+body {
+    margin-top: 50px;
+}
+
+.title {
+    margin: 10px;
+} 
+
+
+#title-heading {
+    margin: 0;
+}
+
+
+.icon {
+    height: 100px;
+}
+
+
+#repo-desc {
+    font-size: 17px;
+}
+
+.content {
+    display: none;
+}
+
+#card-row {
+    margin-bottom: 0px;
+}
+
+.avatar {
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.blog {
+    font-size: 1.2rem;
+}
+
+.name {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.username {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.company {
+    font-size: 1.2rem;
+}
+
+.location {
+    font-size: 1.2rem;
+}
+
+.blog {
+    margin-top: 30px;
+}
+
+.notFound {
+    display: none;
+}
+
+.link-button {
+    margin-top: 10px;
+}
+

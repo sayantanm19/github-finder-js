@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Github Trending</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous" -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="title">
+            <div class="row">
+                <div class="col s2">
+                    <i class="fab fa-4x fa-github"></i>
+                </div>
+
+                <div class="col s10">
+                    <h3 id="title-heading">Github Repo Finder</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m9 l9">
+                <div class="card">
+                    <div class="card-content">
+                        <form id="prefs">
+                            <div class="row">
+                                <!--legend>Enter details here</legend-->
+                                <div class="input-field col s12">
+                                    <input type="text" placeholder="Enter username" id="username-input">
+                                    <label>Username</label>
+                                </div>
+
+                                <!-- <div class="col l12 right-align">
+                                    <button type="submit" id="get-trending" class="waves-effect waves-light btn blue">Submit</button>
+                                </div> -->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="row">
+
+                <!-- Profile Info -->
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="col s12">
+                                    <!-- <h4>Profile Info</h4> -->
+                                    <div class="avatar center-align">
+
+                                    </div>
+                                    <div class="name center-align">
+
+                                    </div>
+                                    <div class="username center-align">
+
+                                    </div>
+                                    <div class="bio center-align">
+
+                                    </div>
+
+                                    <div class="blog">
+
+                                    </div>
+                                    <div class="company">
+
+                                    </div>
+                                    <div class="email">
+
+                                    </div>
+                                    <div class="location">
+
+                                    </div>
+                                    <hr>
+                                    <div class="gists">
+
+                                    </div>
+                                    <div class="repo_count">
+
+                                    </div>
+                                    <div class="followers">
+
+                                    </div>
+                                    <div class="following">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Repositories -->
+                <div class="col s12 m8 l8">
+                    <div class="card">
+                        <div class="card-content">
+                            <h4>Repositories</h4>
+
+                            <div class="repos">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="notFound">
+            No User Found With This username. Please retry again...
+        </div>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
